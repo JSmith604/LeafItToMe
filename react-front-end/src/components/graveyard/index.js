@@ -3,17 +3,17 @@ import {Container} from "react-bootstrap";
 
 import Hero from "../hero";
 
-export default function HomePage(props) {
+export default function Graveyard(props) {
 
   return (
     <>
       <Hero
-        header="Leaf It To Me"
-        text="Grow plants that not only survive but thrive!"
+        header="Plant Graveyard"
+        text="Your plants that have moved on to a better place. RIP."
         gardenButton="true"
       ></Hero>
       <Container>
-      <h2>Home Page</h2>
+      <h2>Plant Graveyard</h2>
       </Container>
     </>
   );

@@ -1,4 +1,4 @@
-const { promiseImpl } = require("ejs");
+
 
 module.exports = (pool) => {
   const getUserPlants = function(userID) {
@@ -186,8 +186,6 @@ module.exports = (pool) => {
     searchByMaxWater,
   };
 }
-
-//search by min and max water requirements, search by min and max sunlight requirements
 
 //To Do: getUserTasks, getPlantTasks
 
