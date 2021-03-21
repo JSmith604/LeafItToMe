@@ -65,15 +65,15 @@ module.exports = (pool) => {
     `, [userID, speciesID])
   };
 
-  const removePlantFromWishlist = function(userID, speciesID) {
+  const removePlantFromWishlist = function(ID) {
     return pool.query(`
-    DELETE FROM wishlist WHERE user_id = $1 AND species_id = $2;
-    `, [userID, speciesID])
+    DELETE FROM wishlist WHERE user_id = $1 AND id = $2;
+    `, [userID, ID])
     .then(() => {
       console.log("Removed From Wishlist!")
     })
     .catch((err) => {
-      console.log("Error!", err)
+      res.status(404);
     })
   };
 
