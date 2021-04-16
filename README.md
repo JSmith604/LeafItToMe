@@ -4,3 +4,5 @@ Visitors to the site can find care instructions for popular houseplants searchin
 
 Tech Stack: React, Axios, Bootstrap, Auth0, ExpressJS, PostgresSQL
 
+[Demo Video](https://www.youtube.com/watch?v=hmaZnOoLF-c)
+
